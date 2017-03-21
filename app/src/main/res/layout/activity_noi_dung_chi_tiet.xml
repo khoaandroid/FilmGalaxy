@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_noi_dung_chi_tiet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bon.filmgalaxy.NoiDungChiTiet">
+    <RelativeLayout
+        android:padding="5dp"
+        android:id="@+id/layoutTren"
+        android:background="#f2ffb811"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageHinhAnh"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher"
+            android:layout_margin="10dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <TextView
+            android:id="@+id/txtTenPhim"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/imageHinhAnh"
+            android:text="Ten Phim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtNgayChieu"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/imageHinhAnh"
+            android:layout_below="@+id/txtTenPhim"
+            android:text="Khoi Chieu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="The Loai"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/imageHinhAnh"
+            android:layout_below="@+id/txtNgayChieu"
+            android:id="@+id/txtTheLoai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtDoDai"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/imageHinhAnh"
+            android:layout_below="@+id/txtTheLoai"
+            android:text="Do Dai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtDienVien"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="Dien Vien"
+            android:layout_below="@+id/imageHinhAnh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtDaoDien"
+            android:text="Dao Dien"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/txtDienVien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtCumRap"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/txtDaoDien"
+            android:text="Cum Rap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_below="@+id/layoutTren"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+
+                android:id="@+id/txtGTND"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:text="GIỚI THIỆU NỘI DUNG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_margin="10dp"
+                android:text="ABCASDASDASD"
+                android:id="@+id/txtMoTa"
+                android:layout_below="@+id/txtGTND"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

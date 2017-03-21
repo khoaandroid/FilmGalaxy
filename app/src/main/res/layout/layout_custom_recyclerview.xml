@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/HinhAnh"
+                android:layout_width="150dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="#f9cb12"
+                android:text="Ten Phim"
+                android:id="@+id/txtTenPhim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/HinhAnh"
+                android:layout_marginTop="22dp" />
+
+            <TextView
+                android:layout_below="@+id/txtTenPhim"
+                android:text="The Loai"
+                android:id="@+id/txtTheLoai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignStart="@+id/txtTenPhim" />
+            <LinearLayout
+            android:padding="3dp"
+            android:background="#fea60f"
+            android:gravity="center"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/txtTheLoai"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/dollar"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+            <TextView
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="MuaVe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>
