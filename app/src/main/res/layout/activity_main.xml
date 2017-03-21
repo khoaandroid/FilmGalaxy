@@ -15,13 +15,13 @@
     <!-- Navigation Left-->
 
     <!-- Navigation Right -->
-    <android.support.design.widget.NavigationView
-        android:background="#09e439"
-        android:layout_gravity="right"
-        android:id="@+id/navigation_right"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </android.support.design.widget.NavigationView>
+    <!--<android.support.design.widget.NavigationView-->
+        <!--android:background="#09e439"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:id="@+id/navigation_right"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+    <!--</android.support.design.widget.NavigationView>-->
 
     <RelativeLayout
         android:layout_width="match_parent"
