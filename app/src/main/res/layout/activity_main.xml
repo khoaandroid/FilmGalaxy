@@ -13,13 +13,7 @@
 
 
     <!-- Navigation Left-->
-   <android.support.design.widget.NavigationView
-       android:background="#ff11"
-       android:id="@+id/navigation_left"
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:layout_gravity="start">
-   </android.support.design.widget.NavigationView>
+
     <!-- Navigation Right -->
     <android.support.design.widget.NavigationView
         android:background="#09e439"
